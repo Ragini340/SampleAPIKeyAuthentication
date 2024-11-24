@@ -29,5 +29,6 @@ namespace SampleAPIKeyAuthentication.Controllers
             })
             .ToArray();
         }
+
     }
 }

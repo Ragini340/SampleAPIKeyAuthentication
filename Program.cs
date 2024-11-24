@@ -9,6 +9,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Api Key Auth", Version = "v1" });
+
     c.AddSecurityDefinition("ApiKey", new OpenApiSecurityScheme
     {
         Description = "ApiKey must appear in header",
