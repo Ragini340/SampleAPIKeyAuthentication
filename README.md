@@ -1,1 +1,1 @@
-Implemented API key authentication to secure ASP.NET Core Web API
+Implemented API key authentication to secure ASP.NET Core Web API.
